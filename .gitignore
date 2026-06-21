@@ -1,8 +1,16 @@
-**/.env
-**/.env.*
-node_modules
-dist
-dist-ssr
+# Environment files
+.env
+.env.*
+*/.env
+*/.env.*
+
+# Node modules
+node_modules/
+*/node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs
 *.log
-.DS_Store
-*.local
